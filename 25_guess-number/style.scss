@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c3cfe2;
+    display: grid;
+    grid-template-columns: 1fr;
+    * {
+        grid-column: 1;
+    }
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 500px;
+    width: auto;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+p {
+    padding: 30px;
+    font-weight: 400;
+    font-size: 1.3em;
+}
